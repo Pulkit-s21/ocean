@@ -10,6 +10,11 @@
     --s2: #ff846e;
     --cloud: #fea798;
 }
+
+
+body{
+  min-height: 100vh;
+}
   
   .landscape:after,
   .landscape:before,
