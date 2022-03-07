@@ -622,5 +622,15 @@
 
 .trash{
     position: absolute;
-    opacity: .7;
+    opacity: .75;
+    animation: bob 2s ease-in-out alternate infinite;
+}
+
+@keyframes bob{
+  from{
+    transform: rotate(var(--rotation)) translateY(2vh);
+  }
+  to{
+    transform: rotate(calc(var(--rotation) + 10deg)) translateY(0);
+  }
 }
