@@ -593,9 +593,9 @@ body{
     height: 200%;
     position: absolute;
     background-color: hsla(290, 31%, 67%, .9);
-    bottom: 0;
+    bottom: 0; /* so that the bottom of the after element stays at the bottom of the logo element */
     left: -50%;
-    border-radius: 35%;
+    border-radius: 35%; /* to round the corners of the after element */
     animation: waves 5s ease-in-out alternate infinite;
 }
 
