@@ -607,10 +607,10 @@ body{
 
 .money{
     position: absolute;
-    bottom: 50vh;
+    bottom: 50%;
     font-size: 6vmin; /* so that the text stays same propertion no matter if user zooms in or out */
     color: white;
-    left: 50vmin; /* we are using vmin cz the rocks are made using vmin so no matter what the text will stay in the center */
+    left: 50%; /* we are using vmin cz the rocks are made using vmin so no matter what the text will stay in the center */
     text-shadow: 0 0 5px hsl(0,0%,0%,.5);
     margin: 0;
     opacity: .4;
