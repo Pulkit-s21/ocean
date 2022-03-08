@@ -645,8 +645,8 @@ body{
     position: absolute;
     top: .5rem;
     left: .5rem;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 100%;
     overflow: hidden; /* this is very imp cz the after element will be larger than this so it needs to be hidden */
     z-index: 2;
